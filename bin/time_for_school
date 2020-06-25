@@ -16,10 +16,9 @@ jim = User.new
 jim.first_name = "Jim"
 jim.last_name = "Newton"
 
-jim.learn(some_knowledge)
-
 
 some_knowledge = avi.teach 
+jim.learn(some_knowledge)
 
 steve.learn(some_knowledge)
 
